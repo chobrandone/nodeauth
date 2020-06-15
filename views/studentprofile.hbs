@@ -1,0 +1,59 @@
+
+<div class="container bg-secondary">
+    <div class="row">
+      <div class="col md-4">
+        <div>
+          {{#each StudentSent}}
+          <h3>{{picture}}</h3>
+          {{/each}}
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-6 culm">
+            {{#each StudentSent}}
+             <h3>{{firstname}}</h3>
+             <h3>{{lastname}}</h3>
+             <h3>{{email}}</h3>
+            {{/each}}
+          </div>
+          <div class="col-md-6">
+            {{#each StudentSent}}
+            <h3>{{date}}</h3>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+{{!-- <div>
+  {{>nav}}
+  <div class="container">
+    <table class="table table-bodered table-dark table-hover">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Picture</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Day</th>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr {{#each patientsSent}}>
+      <td>{{Id}}</td>
+      <td>{{name}}</td>
+      <td>{{age}}</td>
+      <td>{{picture}}</td>
+      <td>{{gender}}</td>
+      <td>{{date}}</td>
+    </tr {{/each}}>
+  </tbody>
+</table>
+<a href="../../" class="btn btn-dark float-left">Back</a>
+<a href="/login" class="btn btn-secondary float-right">Login</a>
+</div>
+{{>footer}}
+</div> --}}

@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <h1 class="display-4 text-centre"> welcome to seven academy </h1>
+  <p class="lead">welocome to seven dev manager chose if you are a student or a techer </p>
+  <hr class="my-4">
+  <p>It uses utility classes for webdev anddigital marketing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+
+  <div style="margin-top: 30px padding-top:60px" class="text-center pt=60">
+    <a class="btn btn-primary btn-lg active" href="/login">student</a>
+    <a class="btn btn-primary btn-lg active" href="/register">teacher</a>
+</div>
+
